@@ -1,0 +1,31 @@
+{
+  "name": "fetchWithAbort",
+  "version": "1.0.0",
+  "description": "Returns an instance of fetch that when trigger will abort previous requests. Helpful when querying and API and the value has become stailed before its completition. ",
+  "source": "index.js",
+  "main": "dist/index.js",          
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",      
+  "scripts": {
+    "start": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navio/fetch-with-abort.git"
+  },
+  "keywords": [
+    "Abort",
+    "Fetch",
+    "Instance"
+  ],
+  "author": "Alberto Navarro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navio/fetch-with-abort/issues"
+  },
+  "homepage": "https://github.com/navio/fetch-with-abort#readme",
+  "devDependencies": {
+    "microbundle": "^0.6.0"
+  }
+}
